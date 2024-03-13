@@ -1,0 +1,31 @@
+                                        ##STACK##
+
+  STACK:- stores a list of items in which an item can be added to or removed from the list only at  one end.
+
+  char :- linear data structure, in which we can store list of items.
+
+  special :- LIFO mechenism;
+
+  LIFO(Last In First Out) :- we can only remove the element first which we added recently in stack;
+
+                             |   |                |   |
+                       top-> | 3 |           push | 4 |
+                             |___|            <-- |___|
+                             |   |        |   |
+                             | 2 |        | 2 |
+                             |___|        |___|
+                             |   |        |   |
+                             | 1 |        | 1 |
+                             |___|        |___|
+                                          |   |
+                                          | 1 |
+                                          |___|
+
+   top -> top is a pointer which shows the recently added element.
+
+  There are some operation which we can perform in stacks
+
+  1. push(); -> To add an elements on the top of the stacks.
+  2. pop();  -> To pop out an element from the top of the stack.
+  3. Top();  -> To call the element placed on top of stack with the help of this function.
+  4. empty();-> To check if the stack is empty or not.

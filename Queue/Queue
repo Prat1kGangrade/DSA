@@ -1,0 +1,20 @@
+                                 ##QUEUE##
+
+   Queue:- stores a list of items in which an item can be insert at one end and removed
+                             from the other end only.
+
+    Based on the principle of FIFO (First In First out)
+
+                 operations:-
+
+                 we have to make two pointers (front and back)
+
+                 front is pointing on first element of the QUEUE
+                 back is pointing on last element of the QUEUE
+
+          enqueue(x); = like a push operation (push element at the back of the queue)
+          dequeue();  = like a pop operation (pop element from front position of the queue)
+          peek();     = to check the value at front
+          empty();    = to check queue is empty or not
+
+                                            

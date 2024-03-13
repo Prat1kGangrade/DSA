@@ -1,0 +1,20 @@
+
+
+Heap:- A complete binary tree that satisfy heaps property.
+
+properties:- if heap has n nodes then it has a height of log(n)
+
+                50
+                /\               this is max heap means the parent node have to be greater then child nodes
+            40     45              we will traverse up to down and left to right
+            /\     /\
+          30  20 35  10
+
+          representation in array:- a = | 50 | 40 | 45 | 30 | 20 | 35 | 10 |
+                                           1    2    3    4    5    6    7
+
+                      node = i
+                      parent(i) = i/2
+                      left_child(i) = 2*i
+                      right_child = 2*i+1
+                                
